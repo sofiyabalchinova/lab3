@@ -1,0 +1,78 @@
+.modal-window {
+  position: relative;
+  width: 100%;
+}
+
+.french {
+  width: 100%;
+}
+
+.btn-view {
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  padding: 14px 32px;
+  background-color: #EEDB6D;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.479);
+}
+
+.popup__body {
+  position: relative;
+  width: 100%;
+  margin-left: 23%;
+  margin-top: 10%;
+}
+
+.window {
+  width: 55%;
+}
+
+.popup__close {
+  position: absolute;
+  top: 5%;
+  right: 47%;
+  color: #598D66;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 728px) {
+  .btn-view {
+    width: 23%;
+    height: 15%;
+    top: 70%;
+  }
+}
+@media (max-width: 559px) {
+  .btn-view {
+    width: 30%;
+    height: 18%;
+  }
+}
+@media (max-width: 375px) {
+  .btn-view {
+    width: 45%;
+    height: 10%;
+  }
+  .window {
+    width: 60%;
+    margin-left: -3%;
+    margin-top: 30%;
+  }
+  .popup__close {
+    left: 50%;
+    top: 40%;
+  }
+}/*# sourceMappingURL=modal.css.map */

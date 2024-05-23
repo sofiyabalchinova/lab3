@@ -1,0 +1,56 @@
+.accordion__title {
+  display: block;
+  width: 97%;
+  padding: 2%;
+  background-color: #D4E8D9;
+  color: #598D66;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+.accordion__content {
+  margin: 2%;
+}
+
+.accordion__text {
+  font-size: 20px;
+  color: #598D66;
+}
+
+.hidden2 {
+  display: none;
+}
+
+.bttn3 {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #598D66;
+  padding: 15px 10px;
+}
+
+.bttn3-txt {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.photo-team {
+  width: 7%;
+}
+
+.ellipses {
+  gap: 3%;
+}
+
+.map {
+  width: 60%;
+  height: 400px;
+  margin-left: 10%;
+}
+
+@media (max-width: 375px) {
+  .map {
+    display: none;
+  }
+}/*# sourceMappingURL=accordion.css.map */

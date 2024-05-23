@@ -1,0 +1,42 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__line {
+  display: flex;
+  transition: all 1s;
+}
+
+.slider__img {
+  width: 100%;
+}
+
+.slider__btn-prew {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  transform: translateY(-50%) rotate(180deg);
+  font-size: 30px;
+  color: #598D66;
+  background-color: transparent;
+  border: 1px solid #598D66;
+  line-height: 1;
+}
+
+.slider__btn-next {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #598D66;
+  background-color: transparent;
+  border: 1px solid #598D66;
+  line-height: 1;
+}
+
+.slider__btn-prew:hover, .slider__btn-next:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=slider.css.map */
